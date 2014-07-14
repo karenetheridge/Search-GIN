@@ -1,4 +1,6 @@
+Revision history for {{$dist->name}}
 
+{{$NEXT}}
         - Fix arg unpacking in Query::Manual::consistent (Robert Norris,
           RT#94858)
 
