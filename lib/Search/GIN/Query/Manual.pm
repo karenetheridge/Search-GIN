@@ -49,7 +49,7 @@ sub extract_values {
 }
 
 sub consistent {
-    my ( $self, $obj ) = @_;
+    my ( $self, $index, $obj ) = @_;
 
     if ( my $filter = $self->filter ) {
         return $obj->$filter;
