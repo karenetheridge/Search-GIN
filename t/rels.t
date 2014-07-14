@@ -44,7 +44,7 @@ use ok 'Search::GIN::Extract::Class';
             values => [ $gin->objects_to_ids(@{ $self->friends }) ],
         );
     }
-    
+
     sub consistent { 1 }
 
     package Person;

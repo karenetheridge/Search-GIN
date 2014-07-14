@@ -35,7 +35,7 @@ __END__
 
 =head1 SYNOPSIS
 
-	use Search::GIN::Extract::Class;
+    use Search::GIN::Extract::Class;
 
 =head1 DESCRIPTION
 

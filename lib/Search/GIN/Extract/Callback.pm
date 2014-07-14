@@ -33,7 +33,7 @@ __END__
 
 =head1 SYNOPSIS
 
-	use Search::GIN::Extract::Callback;
+    use Search::GIN::Extract::Callback;
 
 =head1 DESCRIPTION
 

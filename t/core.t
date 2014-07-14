@@ -25,10 +25,10 @@ use Set::Object;
             Search::GIN::Core
             Search::GIN::Driver::Hash
             Search::GIN::SelfIDs
-		),
-		'Search::GIN::DelegateToIndexed' => {
-			-excludes => "objects_to_ids", # SelfIDs
-		},
+        ),
+        'Search::GIN::DelegateToIndexed' => {
+            -excludes => "objects_to_ids", # SelfIDs
+        },
     );
 }
 

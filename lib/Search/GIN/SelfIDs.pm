@@ -22,7 +22,7 @@ __END__
 
 =head1 SYNOPSIS
 
-	use Search::GIN::SelfIDs;
+    use Search::GIN::SelfIDs;
 
 =head1 DESCRIPTION
 

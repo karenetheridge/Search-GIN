@@ -28,7 +28,7 @@ __END__
 
 =head1 SYNOPSIS
 
-	use Search::GIN::Extract::Multiplex;
+    use Search::GIN::Extract::Multiplex;
 
 =head1 DESCRIPTION
 

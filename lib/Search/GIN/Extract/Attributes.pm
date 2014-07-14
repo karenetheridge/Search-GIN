@@ -47,7 +47,7 @@ __END__
 
 =head1 SYNOPSIS
 
-	use Search::GIN::Extract::Attributes;
+    use Search::GIN::Extract::Attributes;
 
 =head1 DESCRIPTION
 

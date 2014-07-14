@@ -23,7 +23,7 @@ __END__
 
 =head1 SYNOPSIS
 
-	use Search::GIN::Driver::PackLength;
+    use Search::GIN::Driver::PackLength;
 
 =head1 DESCRIPTION
 

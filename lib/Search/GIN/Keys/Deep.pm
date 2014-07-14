@@ -24,7 +24,7 @@ __END__
 
 =head1 SYNOPSIS
 
-	with qw(Search::GIN::Keys::Deep);
+    with qw(Search::GIN::Keys::Deep);
 
 =head1 DESCRIPTION
 
