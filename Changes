@@ -3,6 +3,7 @@ Revision history for {{$dist->name}}
 {{$NEXT}}
         - Fix arg unpacking in Query::Manual::consistent (Robert Norris,
           RT#94858)
+        - fixed mangled links in pod (RT#93490)
 
 0.08    2011-01-31
         - Fix dup release on CPAN

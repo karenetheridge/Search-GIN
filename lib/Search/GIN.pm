@@ -21,11 +21,9 @@ L<Search::GIN> is primarily used by L<KiokuDB> for custom indexing.
 
 =over 4
 
-=item * L<pgsql-hackers msg #00960|http://archives.postgresql.org/pgsql-hackers/
-2006-04/msg00960.php>
+=item * L<pgsql-hackers msg #00960|http://archives.postgresql.org/pgsql-hackers/2006-04/msg00960.php>
 
-=item * L<Inverted_index on Wikipedia|http://en.wikipedia.org/wiki/
-Inverted_index>
+=item * L<Inverted_index on Wikipedia|http://en.wikipedia.org/wiki/Inverted_index>
 
 =back
 
