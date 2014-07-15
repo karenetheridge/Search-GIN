@@ -1,6 +1,8 @@
 Revision history for {{$dist->name}}
 
 {{$NEXT}}
+
+0.09      2014-07-15 00:09:54Z
         - Fix arg unpacking in Query::Manual::consistent (Robert Norris,
           RT#94858)
         - fixed mangled links in pod (RT#93490)
