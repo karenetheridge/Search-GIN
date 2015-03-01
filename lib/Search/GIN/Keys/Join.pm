@@ -1,7 +1,6 @@
 use strict;
 use warnings;
 package Search::GIN::Keys::Join;
-# ABSTRACT:
 
 use Moose::Role;
 

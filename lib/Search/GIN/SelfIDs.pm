@@ -1,7 +1,6 @@
 use strict;
 use warnings;
 package Search::GIN::SelfIDs;
-# ABSTRACT:
 
 use Moose::Role;
 use namespace::clean -except => [qw(meta)];

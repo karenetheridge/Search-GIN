@@ -1,7 +1,6 @@
 use strict;
 use warnings;
 package Search::GIN::Keys::Deep;
-# ABSTRACT:
 
 use Moose::Role;
 use namespace::clean -except => 'meta';

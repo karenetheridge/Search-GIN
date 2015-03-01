@@ -1,7 +1,6 @@
 use strict;
 use warnings;
 package Search::GIN::Extract::Callback;
-# ABSTRACT:
 
 use Moose;
 use namespace::clean -except => 'meta';

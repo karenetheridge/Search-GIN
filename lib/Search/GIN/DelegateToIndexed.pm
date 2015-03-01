@@ -1,7 +1,6 @@
 use strict;
 use warnings;
 package Search::GIN::DelegateToIndexed;
-# ABSTRACT:
 
 use Moose::Role;
 

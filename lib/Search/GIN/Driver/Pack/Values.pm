@@ -1,7 +1,6 @@
 use strict;
 use warnings;
 package Search::GIN::Driver::Pack::Values;
-# ABSTRACT:
 
 use Moose::Role;
 

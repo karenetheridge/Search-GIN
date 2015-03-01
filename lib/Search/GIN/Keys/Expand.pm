@@ -1,7 +1,6 @@
 use strict;
 use warnings;
 package Search::GIN::Keys::Expand;
-# ABSTRACT:
 
 use Moose::Role;
 use Carp qw(croak);

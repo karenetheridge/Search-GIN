@@ -1,7 +1,6 @@
 use strict;
 use warnings;
 package Search::GIN::Extract::Class;
-# ABSTRACT:
 
 use Moose;
 use MRO::Compat;
