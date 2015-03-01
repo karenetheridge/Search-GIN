@@ -1,7 +1,9 @@
 use strict;
 use warnings;
 package Search::GIN::Extract::Multiplex;
+
 our $VERSION = '0.11';
+
 use Moose;
 use namespace::autoclean;
 

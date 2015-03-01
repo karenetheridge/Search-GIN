@@ -1,7 +1,9 @@
 use strict;
 use warnings;
 package Search::GIN::SelfIDs;
+
 our $VERSION = '0.11';
+
 use Moose::Role;
 use namespace::autoclean;
 

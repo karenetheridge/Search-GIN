@@ -1,7 +1,9 @@
 use strict;
 use warnings;
 package Search::GIN::Extract::Class;
+
 our $VERSION = '0.11';
+
 use Moose;
 use MRO::Compat;
 use namespace::autoclean;

@@ -2,7 +2,9 @@ use strict;
 use warnings;
 package Search::GIN::Core;
 # ABSTRACT: Core of Search::GIN
+
 our $VERSION = '0.11';
+
 use Moose::Role;
 use Data::Stream::Bulk::Util qw(bulk unique);
 use namespace::autoclean;

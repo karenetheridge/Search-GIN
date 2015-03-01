@@ -1,7 +1,9 @@
 use strict;
 use warnings;
 package Search::GIN::Driver::TXN;
+
 our $VERSION = '0.11';
+
 use Moose::Role;
 use Scope::Guard;
 use Carp qw(croak);
