@@ -22,12 +22,3 @@ sub extract_values {
 __PACKAGE__->meta->make_immutable;
 
 1;
-
-__END__
-
-=head1 SYNOPSIS
-
-    use Search::GIN::Extract::Multiplex;
-
-=head1 DESCRIPTION
-

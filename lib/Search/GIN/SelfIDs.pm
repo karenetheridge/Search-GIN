@@ -16,12 +16,3 @@ sub objects_to_ids {
 }
 
 1;
-
-__END__
-
-=head1 SYNOPSIS
-
-    use Search::GIN::SelfIDs;
-
-=head1 DESCRIPTION
-

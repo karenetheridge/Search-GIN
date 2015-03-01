@@ -15,5 +15,3 @@ has extract => (
 sub extract_values { shift->extract->extract_values(@_) }
 
 1;
-
-__END__

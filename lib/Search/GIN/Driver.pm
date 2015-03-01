@@ -78,12 +78,3 @@ sub fetch_entries_all {
 }
 
 1;
-
-__END__
-
-=head1 SYNOPSIS
-
-    use Search::GIN::Driver;
-
-=head1 DESCRIPTION
-

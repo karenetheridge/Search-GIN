@@ -26,12 +26,3 @@ sub objects_to_ids {
 }
 
 1;
-
-__END__
-
-=head1 SYNOPSIS
-
-    use Search::GIN::DelegateToIndexed;
-
-=head1 DESCRIPTION
-

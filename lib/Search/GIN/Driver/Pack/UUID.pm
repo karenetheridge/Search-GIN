@@ -20,12 +20,3 @@ sub pack_ids {
 }
 
 1;
-
-__END__
-
-=head1 SYNOPSIS
-
-    use Search::GIN::Driver::PackUUID;
-
-=head1 DESCRIPTION
-

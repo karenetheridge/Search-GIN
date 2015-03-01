@@ -17,12 +17,3 @@ sub unpack_length {
 }
 
 1;
-
-__END__
-
-=head1 SYNOPSIS
-
-    use Search::GIN::Driver::PackLength;
-
-=head1 DESCRIPTION
-

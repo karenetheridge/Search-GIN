@@ -66,5 +66,3 @@ sub insert {
 }
 
 1;
-
-__END__

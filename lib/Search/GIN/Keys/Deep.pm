@@ -18,12 +18,3 @@ sub process_keys {
 }
 
 1;
-
-__END__
-
-=head1 SYNOPSIS
-
-    with qw(Search::GIN::Keys::Deep);
-
-=head1 DESCRIPTION
-

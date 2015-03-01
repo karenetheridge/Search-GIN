@@ -80,5 +80,3 @@ sub insert_entry {
 }
 
 1;
-
-__END__

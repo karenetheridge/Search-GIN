@@ -17,5 +17,3 @@ sub unpack_delim {
 }
 
 1;
-
-__END__

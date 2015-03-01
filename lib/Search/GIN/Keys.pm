@@ -8,5 +8,3 @@ use namespace::clean -except => 'meta';
 requires qw(process_keys);
 
 1;
-
-__END__

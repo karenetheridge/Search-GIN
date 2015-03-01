@@ -78,12 +78,3 @@ sub txn_do {
 }
 
 1;
-
-__END__
-
-=head1 SYNOPSIS
-
-    use Search::GIN::Driver::TXN;
-
-=head1 DESCRIPTION
-

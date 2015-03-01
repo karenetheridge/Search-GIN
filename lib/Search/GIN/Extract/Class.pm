@@ -29,12 +29,3 @@ sub extract_values {
 }
 
 1;
-
-__END__
-
-=head1 SYNOPSIS
-
-    use Search::GIN::Extract::Class;
-
-=head1 DESCRIPTION
-

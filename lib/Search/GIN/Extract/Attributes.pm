@@ -41,12 +41,3 @@ sub get_meta_attrs {
 }
 
 1;
-
-__END__
-
-=head1 SYNOPSIS
-
-    use Search::GIN::Extract::Attributes;
-
-=head1 DESCRIPTION
-

@@ -50,5 +50,3 @@ sub expand_keys_hash {
 }
 
 1;
-
-__END__

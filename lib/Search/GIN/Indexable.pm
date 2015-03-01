@@ -22,12 +22,3 @@ sub gin_consistent {
 }
 
 1;
-
-__END__
-
-=head1 SYNOPSIS
-
-    use Search::GIN::Indexable;
-
-=head1 DESCRIPTION
-

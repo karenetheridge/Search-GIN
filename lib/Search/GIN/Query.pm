@@ -11,12 +11,3 @@ requires qw(
 );
 
 1;
-
-__END__
-
-=head1 SYNOPSIS
-
-    use Search::GIN::Query;
-
-=head1 DESCRIPTION
-

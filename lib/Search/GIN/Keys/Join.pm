@@ -16,6 +16,3 @@ sub join_key {
 }
 
 1;
-
-__END__
-
