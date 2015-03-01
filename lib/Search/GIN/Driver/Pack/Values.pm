@@ -3,8 +3,7 @@ use warnings;
 package Search::GIN::Driver::Pack::Values;
 
 use Moose::Role;
-
-use namespace::clean -except => 'meta';
+use namespace::autoclean;
 
 requires qw(pack_values unpack_values);
 

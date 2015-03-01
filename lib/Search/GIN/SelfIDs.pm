@@ -3,7 +3,7 @@ use warnings;
 package Search::GIN::SelfIDs;
 
 use Moose::Role;
-use namespace::clean -except => [qw(meta)];
+use namespace::autoclean;
 
 sub ids_to_objects {
     my ( $self, @ids ) = @_;

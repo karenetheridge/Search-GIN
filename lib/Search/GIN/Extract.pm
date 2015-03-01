@@ -3,8 +3,7 @@ use warnings;
 package Search::GIN::Extract;
 
 use Moose::Role;
-
-use namespace::clean -except => 'meta';
+use namespace::autoclean;
 
 requires 'extract_values';
 

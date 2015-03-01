@@ -4,7 +4,7 @@ package Search::GIN::Extract::Class;
 
 use Moose;
 use MRO::Compat;
-use namespace::clean -except => 'meta';
+use namespace::autoclean;
 
 with qw(
     Search::GIN::Extract

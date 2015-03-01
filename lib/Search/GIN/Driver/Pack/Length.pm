@@ -3,8 +3,7 @@ use warnings;
 package Search::GIN::Driver::Pack::Length;
 
 use Moose::Role;
-
-use namespace::clean -except => [qw(meta)];
+use namespace::autoclean;
 
 sub pack_length {
     my ( $self, @strings ) = @_;

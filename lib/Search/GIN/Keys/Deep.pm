@@ -3,7 +3,7 @@ use warnings;
 package Search::GIN::Keys::Deep;
 
 use Moose::Role;
-use namespace::clean -except => 'meta';
+use namespace::autoclean;
 
 with qw(
     Search::GIN::Keys

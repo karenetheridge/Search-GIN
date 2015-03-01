@@ -3,6 +3,7 @@ use warnings;
 package Search::GIN::Indexable;
 
 use Moose::Role;
+use namespace::autoclean;
 
 requires 'gin_extract_values';
 

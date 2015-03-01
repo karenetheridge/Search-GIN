@@ -4,8 +4,7 @@ package Search::GIN::Driver::Pack::UUID;
 # ABSTRACT: UUID key packing
 
 use Moose::Role;
-
-use namespace::clean -except => [qw(meta)];
+use namespace::autoclean;
 
 with qw(Search::GIN::Driver);
 

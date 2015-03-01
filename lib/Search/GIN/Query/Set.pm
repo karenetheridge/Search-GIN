@@ -4,7 +4,7 @@ package Search::GIN::Query::Set;
 # ABSTRACT: Create queries with set operations
 
 use Moose;
-use namespace::clean -except => 'meta';
+use namespace::autoclean;
 
 with qw(
     Search::GIN::Query

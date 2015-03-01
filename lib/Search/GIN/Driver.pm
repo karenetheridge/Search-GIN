@@ -3,10 +3,8 @@ use warnings;
 package Search::GIN::Driver;
 
 use Moose::Role;
-
 use Data::Stream::Bulk::Util qw(bulk nil cat unique);
-
-use namespace::clean -except => [qw(meta)];
+use namespace::autoclean;
 
 requires qw(
     insert_entry

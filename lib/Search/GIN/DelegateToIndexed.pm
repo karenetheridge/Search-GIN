@@ -3,8 +3,7 @@ use warnings;
 package Search::GIN::DelegateToIndexed;
 
 use Moose::Role;
-
-use namespace::clean -except => 'meta';
+use namespace::autoclean;
 
 with qw(Search::GIN::Core);
 

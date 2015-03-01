@@ -3,7 +3,7 @@ use warnings;
 package Search::GIN::Keys;
 
 use Moose::Role;
-use namespace::clean -except => 'meta';
+use namespace::autoclean;
 
 requires qw(process_keys);
 

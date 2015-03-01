@@ -3,7 +3,7 @@ use warnings;
 package Search::GIN::Extract::Delegate;
 
 use Moose::Role;
-use namespace::clean -except => 'meta';
+use namespace::autoclean;
 
 has extract => (
     does => "Search::GIN::Extract",

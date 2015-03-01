@@ -3,12 +3,9 @@ use warnings;
 package Search::GIN::Driver::TXN;
 
 use Moose::Role;
-
 use Scope::Guard;
-
 use Carp qw(croak);
-
-use namespace::clean -except => [qw(meta)];
+use namespace::autoclean;
 
 with qw(Search::GIN::Driver);
 

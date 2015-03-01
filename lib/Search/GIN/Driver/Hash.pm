@@ -3,13 +3,10 @@ use warnings;
 package Search::GIN::Driver::Hash;
 
 use Moose::Role;
-
 use Set::Object;
-
 use Data::Stream::Bulk::Util qw(bulk);
 use Scalar::Util qw(refaddr);
-
-use namespace::clean -except => [qw(meta)];
+use namespace::autoclean;
 
 with qw(Search::GIN::Driver);
 

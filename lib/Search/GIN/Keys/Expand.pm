@@ -4,7 +4,7 @@ package Search::GIN::Keys::Expand;
 
 use Moose::Role;
 use Carp qw(croak);
-use namespace::clean -except => 'meta';
+use namespace::autoclean;
 
 sub expand_keys {
     my ( $self, @keys ) = @_;

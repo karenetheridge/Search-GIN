@@ -3,6 +3,7 @@ use warnings;
 package Search::GIN::Keys::Join;
 
 use Moose::Role;
+use namespace::autoclean;
 
 sub join_keys {
     my ( $self, @keys ) = @_;

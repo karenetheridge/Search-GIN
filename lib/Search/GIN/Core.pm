@@ -4,10 +4,8 @@ package Search::GIN::Core;
 # ABSTRACT: Core of Search::GIN
 
 use Moose::Role;
-
 use Data::Stream::Bulk::Util qw(bulk unique);
-
-use namespace::clean -except => [qw(meta)];
+use namespace::autoclean;
 
 with qw(
     Search::GIN::Driver

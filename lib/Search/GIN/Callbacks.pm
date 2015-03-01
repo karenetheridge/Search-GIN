@@ -4,6 +4,7 @@ package Search::GIN::Callbacks;
 # ABSTRACT: Provide callbacks
 
 use Moose::Role;
+use namespace::autoclean;
 
 with qw(Search::GIN::Core);
 

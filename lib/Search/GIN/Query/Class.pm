@@ -5,7 +5,7 @@ package Search::GIN::Query::Class;
 
 use Moose;
 use Carp qw(croak);
-use namespace::clean -except => [qw(meta)];
+use namespace::autoclean;
 
 with qw(
     Search::GIN::Query

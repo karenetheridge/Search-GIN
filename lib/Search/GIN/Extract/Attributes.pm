@@ -3,7 +3,7 @@ use warnings;
 package Search::GIN::Extract::Attributes;
 
 use Moose;
-use namespace::clean -except => 'meta';
+use namespace::autoclean;
 
 with qw(
     Search::GIN::Extract
