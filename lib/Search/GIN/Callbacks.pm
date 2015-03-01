@@ -2,7 +2,7 @@ use strict;
 use warnings;
 package Search::GIN::Callbacks;
 # ABSTRACT: Provide callbacks
-
+our $VERSION = '0.11';
 use Moose::Role;
 use namespace::autoclean;
 

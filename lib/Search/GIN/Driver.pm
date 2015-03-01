@@ -1,7 +1,7 @@
 use strict;
 use warnings;
 package Search::GIN::Driver;
-
+our $VERSION = '0.11';
 use Moose::Role;
 use Data::Stream::Bulk::Util qw(bulk nil cat unique);
 use namespace::autoclean;

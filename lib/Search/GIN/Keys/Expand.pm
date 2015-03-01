@@ -1,7 +1,7 @@
 use strict;
 use warnings;
 package Search::GIN::Keys::Expand;
-
+our $VERSION = '0.11';
 use Moose::Role;
 use Carp qw(croak);
 use namespace::autoclean;

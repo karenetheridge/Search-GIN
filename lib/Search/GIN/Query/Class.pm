@@ -2,7 +2,7 @@ use strict;
 use warnings;
 package Search::GIN::Query::Class;
 # ABSTRACT: Create class-based GIN queries
-
+our $VERSION = '0.11';
 use Moose;
 use Carp qw(croak);
 use namespace::autoclean;

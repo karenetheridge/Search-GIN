@@ -2,7 +2,7 @@ use strict;
 use warnings;
 package Search::GIN::Query::Manual;
 # ABSTRACT: Create manual GIN queries
-
+our $VERSION = '0.11';
 use Moose;
 use namespace::autoclean;
 

@@ -1,7 +1,7 @@
 use strict;
 use warnings;
 package Search::GIN::Extract::Attributes;
-
+our $VERSION = '0.11';
 use Moose;
 use namespace::autoclean;
 
