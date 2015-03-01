@@ -1,6 +1,8 @@
 Revision history for {{$dist->name}}
 
 {{$NEXT}}
+
+0.10      2015-03-01 22:00:45Z
         - fix bunk ABSTRACTs, for better display on metacpan
         - other misc pod cleanup
 
