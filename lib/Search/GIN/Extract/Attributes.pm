@@ -40,4 +40,6 @@ sub get_meta_attrs {
     }
 }
 
+__PACKAGE__->meta->make_immutable;
+
 1;

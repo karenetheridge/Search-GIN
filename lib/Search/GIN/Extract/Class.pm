@@ -28,4 +28,6 @@ sub extract_values {
     });
 }
 
+__PACKAGE__->meta->make_immutable;
+
 1;
