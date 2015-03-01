@@ -83,6 +83,8 @@ __PACKAGE__->meta->make_immutable;
 
 __END__
 
+=pod
+
 =head1 SYNOPSIS
 
     use Search::GIN::Query::Attributes;
@@ -120,3 +122,4 @@ Attributes of the object you want to find.
         },
     );
 
+=cut

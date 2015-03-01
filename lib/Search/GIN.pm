@@ -7,6 +7,8 @@ package Search::GIN;
 
 __END__
 
+=pod
+
 =head1 DESCRIPTION
 
 Inverted Indexing is an indexing method that maps from content to location in
@@ -27,3 +29,4 @@ L<Search::GIN> is primarily used by L<KiokuDB> for custom indexing.
 
 =back
 
+=cut

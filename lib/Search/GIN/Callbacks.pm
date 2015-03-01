@@ -21,10 +21,12 @@ foreach my $cb (
 }
 
 1;
-
 __END__
+
+=pod
 
 =head1 DESCRIPTION
 
 This role provides a few callbacks for L<Search::GIN>.
 
+=cut

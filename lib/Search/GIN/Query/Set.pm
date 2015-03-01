@@ -56,6 +56,8 @@ __PACKAGE__->meta->make_immutable;
 
 __END__
 
+=pod
+
 =head1 SYNOPSIS
 
     # build a query like:
@@ -107,3 +109,4 @@ The subqueries to process
 One of the basic set operators: "UNION", "INTERSECT" and "EXCEPT". The
 default is "UNION"
 
+=cut

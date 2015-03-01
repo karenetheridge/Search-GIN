@@ -94,6 +94,8 @@ __PACKAGE__->meta->make_immutable;
 
 __END__
 
+=pod
+
 =head1 SYNOPSIS
 
     use Search::GIN::Query::Class;
@@ -141,3 +143,4 @@ The name of the package that the object is blessed into.
         blessed => 'Person',
     );
 
+=cut
