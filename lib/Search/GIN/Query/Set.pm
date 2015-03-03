@@ -3,7 +3,7 @@ use warnings;
 package Search::GIN::Query::Set;
 # ABSTRACT: Create queries with set operations
 
-our $VERSION = '0.11';
+our $VERSION = '0.12';
 
 use Moose;
 use namespace::autoclean;

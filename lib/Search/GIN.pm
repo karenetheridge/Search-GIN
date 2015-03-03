@@ -3,7 +3,7 @@ use warnings;
 package Search::GIN;
 # ABSTRACT: Generalized Inverted Indexing
 
-our $VERSION = '0.11';
+our $VERSION = '0.12';
 
 1;
 

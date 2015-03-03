@@ -3,7 +3,7 @@ use warnings;
 package Search::GIN::Query::Attributes;
 # ABSTRACT: Create attributes-based GIN queries
 
-our $VERSION = '0.11';
+our $VERSION = '0.12';
 
 use Moose;
 use Carp qw(croak);

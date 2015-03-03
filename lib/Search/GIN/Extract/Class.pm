@@ -2,7 +2,7 @@ use strict;
 use warnings;
 package Search::GIN::Extract::Class;
 
-our $VERSION = '0.11';
+our $VERSION = '0.12';
 
 use Moose;
 use MRO::Compat;
