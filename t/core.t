@@ -2,7 +2,7 @@ use strict;
 use warnings;
 
 use Test::More 'no_plan';
-use Test::TempDir;
+use Test::TempDir::Tiny;
 
 use Set::Object;
 
@@ -124,7 +124,7 @@ use Set::Object;
 
 my $gin = MyGIN->new(
     manager => {
-        home => temp_root,
+        home => tempdir(),
         create => 1,
     },
     file => "foo.idx",

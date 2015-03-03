@@ -1,6 +1,7 @@
 Revision history for {{$dist->name}}
 
 {{$NEXT}}
+        - switched from deprecated Test::TempDir to Test::TempDir::Tiny
 
 0.10      2015-03-01 22:00:45Z
         - fix bunk ABSTRACTs, for better display on metacpan
