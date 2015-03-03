@@ -1,6 +1,8 @@
 Revision history for {{$dist->name}}
 
 {{$NEXT}}
+
+0.11      2015-03-03 01:19:29Z
         - switched from deprecated Test::TempDir to Test::TempDir::Tiny
 
 0.10      2015-03-01 22:00:45Z
